@@ -1,19 +1,7 @@
-.. currentmodule:: machinevisiontoolbox.ImageSpatial
-    
-Image kernels
-=============
+Spatial operators
+=================
 
-.. autosummary:: Kernel
-    :nosignatures:
-    :toctree: stubs/kernel
+These functions perform image processing operations on grey-scale and color images.
 
-    ~Kernel.Gauss
-    ~Kernel.Laplace
-    ~Kernel.Sobel
-    ~Kernel.DoG
-    ~Kernel.LoG
-    ~Kernel.DGauss
-    ~Kernel.Circle
-    ~Kernel.Box
-
-
+.. autoclass:: machinevisiontoolbox.ImageProcessingKernel.ImageProcessingKernelMixin
+   :members:

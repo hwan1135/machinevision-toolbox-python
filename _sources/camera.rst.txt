@@ -1,22 +1,11 @@
-.. currentmodule:: machinevisiontoolbox.Camera
-
-Camera projection models
-========================
+Camera geometry
+===============
 
 A set of classes that model the projective geometry of cameras.
 
-.. autosummary::
-    :toctree: stubs/camera
-    :nosignatures:
-    :template: mvtbtemplate.rst
 
-    ~CentralCamera 
-    ~FishEyeCamera 
-    ~CatadioptricCamera 
-    ~SphericalCamera
+.. autoclass:: machinevisiontoolbox.CentralCamera
+   :members:
 
-.. inheritance-diagram:: CentralCamera FishEyeCamera CatadioptricCamera SphericalCamera
-    :top-classes: Camera
-    :parts: 1
-
-
+.. autoclass:: machinevisiontoolbox.Camera
+   :members:
